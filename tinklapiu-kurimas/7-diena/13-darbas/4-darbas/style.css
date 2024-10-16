@@ -1,0 +1,24 @@
+.item1 {
+  grid-area: first-p;
+}
+.item2 {
+  grid-area: second-p;
+}
+.item3 {
+  grid-area: third-p;
+}
+.item4 {
+  grid-area: fourth-p;
+}
+.item5 {
+  grid-area: aside;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "first-p second-p aside"
+    "third-p fourth-p aside";
+  gap: 10px;
+  padding: 10px;
+}

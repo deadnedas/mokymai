@@ -1,0 +1,46 @@
+nav {
+  background-color: rgb(171, 171, 171);
+  margin-bottom: 300px;
+  padding: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: inline;
+  position: relative;
+  top: -50px;
+}
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+.nav-links a:hover {
+  background-color: rgb(133, 132, 132);
+  transition-duration: 0.3s;
+}
+
+.green-border {
+  border: 10px dotted green;
+  margin: 10%;
+}
+.logo {
+  border: 5px solid black;
+  border-radius: 100%;
+}
+
+.cat {
+  position: relative;
+  left: 200px;
+  top: -200px;
+}
+.image-scale-dog {
+  position: relative;
+  left: 700px;
+  top: 240px;
+}
