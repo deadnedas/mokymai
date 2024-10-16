@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .item1 {
   grid-area: first-p;
 }
@@ -12,6 +17,7 @@
 }
 .item5 {
   grid-area: aside;
+  image-resolution: 400;
 }
 
 .grid-container {
@@ -20,5 +26,28 @@
     "first-p second-p aside"
     "third-p fourth-p aside";
   gap: 10px;
-  padding: 10px;
+  padding: 40px;
+
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  font-weight: 700;
+  font-size: 90px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin: 30px 0;
+}
+p {
+  color: rgb(153, 157, 177);
+  font-size: 25px;
+  padding: 0 10%;
 }
