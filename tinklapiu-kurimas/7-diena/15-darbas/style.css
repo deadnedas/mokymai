@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 10%;
+  padding: 125px;
+
+  position: relative;
+}
+h2,
+h3,
+p {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+}
+h2 {
+  font-size: 50px;
+  position: absolute;
+
+  bottom: 70px;
+}
+h3 {
+  font-size: 50px;
+
+  color: rgb(185, 178, 178);
+  font-weight: 300;
+  position: absolute;
+
+  bottom: 30px;
+}
+.shopping-order-count {
+  background-color: rgb(89, 23, 24);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  font-size: 35px;
+
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+.shopping--cart-icon {
+  position: absolute;
+
+  left: 60px;
+  bottom: 60px;
+}
