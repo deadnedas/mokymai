@@ -128,4 +128,7 @@ h3 {
   h2 {
     font-size: 90px;
   }
+  ul img {
+    width: 450px;
+  }
 }
