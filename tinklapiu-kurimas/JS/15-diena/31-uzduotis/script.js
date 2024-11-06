@@ -259,7 +259,6 @@ function findWaldo(arr) {
       waldoCount.push(i);
     }
   }
-
   return waldoCount;
 }
 const waldoCount = findWaldo(people);
