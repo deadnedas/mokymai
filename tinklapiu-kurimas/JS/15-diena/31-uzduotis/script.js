@@ -313,12 +313,7 @@ console.log(sumNumbers([1, 4, 8]));
 console.log("______________");
 
 function allPositive(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] <= 0) {
-      return false;
-    }
-  }
-  return true;
+  return arr.every((num) => num > 0);
 }
 console.log(allPositive([1, 2, 3, 4, 5]));
 console.log(allPositive([1, 2, 3, -4, 5]));
