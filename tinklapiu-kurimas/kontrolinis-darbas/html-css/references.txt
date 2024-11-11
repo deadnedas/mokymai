@@ -1,0 +1,11 @@
+fonts:
+https://fonts.google.com/specimen/Roboto
+https://fonts.google.com/specimen/Host+Grotesk
+
+icons:
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23e8eaed
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:tv:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=screen&icon.size=24&icon.color=%23e8eaed
+
+https://fontawesome.com/icons/instagram?f=brands&s=solid
+https://fontawesome.com/icons/facebook?f=brands&s=solid
+https://fontawesome.com/icons/twitter?f=brands&s=solid

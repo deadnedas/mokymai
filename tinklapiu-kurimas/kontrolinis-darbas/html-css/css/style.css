@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* header */
+header, h1 h2 h3 p a{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+header{
+    
+    background-color: rgb(39,43,64);
+
+}
+
+.top-header-container{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 30px;
+
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.background-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 60px;
+}
+.background-img-container::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    opacity: 0.5;
+    background-image: url('../imgs/Family-travel.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.background-img-container div{
+    position: relative;
+}
+
+.background-img-container h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.background-img-container p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    font-size: 30px;
+}
+.background-img-container ul li{
+    list-style: none;
+}
+.background-img-container a{
+    text-decoration: none;
+}
+.background-img-container .button-box{
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+.quote-button {
+    background-color: rgb(73,164,237);
+    border: 1px, solid, rgb(73,164,237);
+    
+}
+.quote-button a{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.learn-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px, solid, rgb(73,164,237);
+    
+}
+.learn-button a{
+    font-family: "Roboto", sans-serif;
+    color:rgb(73,164,237);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* MAIN */
+
+/* Bullet points */
+.main-bullet-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgb(39,43,64);
+    padding: 100px;
+}
+.main-bullet-point li{
+    list-style: none;
+}
+.main-bullet-point ul li img{
+    fill:rgb(73,164,237);
+    width: 200px;
+}
+.main-bullet-point, h3 p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.main-bullet-point h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.main-bullet-point p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* Reviews */
+.main-reviews{
+    padding: 100px;
+
+    background-color: rgb(150,193,240);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.main-reviews div{
+    text-align: center;
+    color:white;
+    padding-bottom: 50px;
+}
+.main-reviews div h2{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.main-reviews div p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+
+.main-reviews li{
+    background-color: white;
+    list-style: none;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+.main-reviews li .name{
+font-size: 30px;
+padding-bottom: 5px;
+color:rgb(39,43,65);  
+
+
+}
+.main-reviews li .role{
+    color: rgb(115,115,115);
+    font-size: 20px;
+}  
+.main-reviews li img{
+    padding: 30px 0;
+}
+.main-reviews li p{
+    color: rgb(115,115,115);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* appointment */
+
+.main-form-container{
+    padding: 100px;
+    position: relative;
+}
+.main-form-container::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url("../imgs/family-hugging.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    
+}
+
+.wrap {
+    position: relative;
+}
+
+.main-form-container div{
+    font-family: "Roboto", sans-serif;
+    color:rgb(39,43,65); 
+    padding-bottom: 50px; 
+}
+.main-form-container div h3{
+    font-size: 35px;
+}
+.main-form-container div h2{
+    font-size: 65px;
+    padding-inline: 10px;
+}
+
+.main-form-container input, select, textarea {
+
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+
+    font-size: 20px;
+    color: rgb(115,115,115);
+    overflow: auto;
+    border-radius: 10px;
+}
+.main-form-container .message{
+    height: 200px;
+}
+#submit-box{
+    background-color: rgb(73,164,237);
+    border: 1px, solid, rgb(73,164,237);
+    
+    color:white;
+    font-weight: 600;
+    
+}
+
+
+.main-contact-us-container{
+    padding: 120px;
+}
+
+.main-contact-us-container div{
+    font-family: "Roboto", sans-serif;
+    color:rgb(39,43,65); 
+    padding-bottom: 50px;
+}
+.main-contact-us-container h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+
+}
+.main-contact-us-container p{
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+.main-contact-us-container button{
+    background-color: rgb(73,164,237);
+    border: 1px, solid, rgb(73,164,237);
+    border-radius: 10px;
+
+    width: 250px;
+    padding: 20px 20px;
+}
+
+.main-contact-us-container a{
+    font-family: "Roboto", sans-serif;
+
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* footer */
+footer{
+    padding: 100px;
+    background-color: rgb(39,43,64);
+}
+footer img{
+    height: 50px;
+}
+
+.footer-container{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+.footer-container p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+
+    font-size: 20px;
+
+}
+
+.footer-container .footer-icon img{
+  margin-inline: 20px;
+}
+
+
