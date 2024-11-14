@@ -13,8 +13,8 @@ const cart = [];
 
 // ------------------ Complete the functions written below ------------------------------ //
 
-function logItemNames() {
-  //TODO: use the .forEach() method to log out the name of each item
+function logItemNames(items) {
+  items.forEach((item) => console.log(item.name));
 }
 
 /**
@@ -23,6 +23,8 @@ function logItemNames() {
  */
 function findItemById(id) {
   // TODO: Use the .find() method to return the item who's id matches the passed in id
+
+  return items.find((item) => item.id === id).name;
 }
 
 /**
@@ -30,6 +32,10 @@ function findItemById(id) {
  */
 function capitalizeNames() {
   // TODO:  Use the .map() and possibly .slice() methods and return a new items array with the item names capitalized
+  return items.map(
+    (item) => item.name.charAt(0).toUpperCase() + item.name.slice(1)
+  );
+
   // DO NOT MUTATE THE ORIGINAL ARRAY IN YOU LOGIC
 }
 
@@ -38,13 +44,21 @@ function capitalizeNames() {
  */
 function calculateTotalInventory() {
   // TODO Use the .reduce() method to return the total number of items in inventory
+  return items.reduce(
+    (accumulator, currentValue) => accumulator + currentValue.inventory,
+    0
+  );
 }
 
 /**
  * @returns {number} the total price of all inventory items combined
  */
 function calculateAllInventoryPrice() {
-  // TODO Use the .reduce() method to return the total price of all the items in inventory
+  return items.reduce(
+    (accumulator, currentValue) =>
+      accumulator + currentValue.inventory * currentValue.price,
+    0
+  );
 }
 
 /**
@@ -52,7 +66,7 @@ function calculateAllInventoryPrice() {
  * @returns {number} the price of the item passed in
  */
 function getItemPriceByName(name) {
-  // TODO: Use your knowledge of objects and arrays to get the price of the item passed in
+  return items.find((item) => item.name === name).price;
 }
 
 /**
@@ -61,10 +75,12 @@ function getItemPriceByName(name) {
  */
 function filterItemsByCategoryId(categoryId) {
   // TODO: use the .filter() method to filter out all items which don't belong the passed in category
+  return items.filter((item) => item.categoryId != categoryId);
 }
 
 function logCartItems() {
   // TODO: Loop through your cart and use the indexes to log the names of all items in your cart
+  cart.forEach((item) => console.log(item.name));
 }
 
 /**
@@ -72,6 +88,12 @@ function logCartItems() {
  */
 function calculateTotalCartPrice() {
   // TODO: Loop through your cart and return the total price of all items in your cart
+  return;
+  cart.reduce(
+    (accumulator, currentValue) =>
+      accumulator + currentValue.inventory * currentValue.price,
+    0
+  );
 }
 
 // --------------------- DO NOT CHANGE THE CODE BELOW ------------------------ //
@@ -85,7 +107,7 @@ const idArr = ids.split(", ");
 
 idArr.forEach((id) => cart.push(id));
 console.log(`The names of all the items are: `);
-logItemNames();
+logItemNames(items);
 const itemId = prompt("enter the id of an item you are trying to find", "1");
 console.log(
   `The item with id ${itemId} is  ${JSON.stringify(
