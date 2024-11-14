@@ -25,9 +25,7 @@ header{
 
 }
 .nav-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     text-align: center;
     padding: 100px 0;
 }
@@ -347,3 +345,43 @@ footer img{
 }
 
 
+/* Desktop */
+@media screen and (min-width: 700px) {
+    header{
+    
+        background-color: none;
+    
+    }
+    .top-header-container{
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+    
+    }
+    .nav-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        padding: 100px 0;
+    }
+    
+    nav ul li{
+        list-style: none;
+        padding: 0px;
+    
+    }
+    
+    nav ul li a{
+        
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    
+}
