@@ -40,18 +40,26 @@ const users = [
 ];
 
 // A function that takes an array of numbers and returns a new array with each number doubled.
-function doubleNumbers(numbers) {}
+function doubleNumbers(numbers) {
+  return numbers.map((num) => num * 2);
+}
 
 // A function that takes an array of numbers and returns a new array with 5 added to each number.
-function addFive(numbers) {}
+function addFive(numbers) {
+  return numbers.map((num) => num + 2);
+}
 
 // A function that takes an array of names and returns a new array with "hello " in front of each name.
-function greetPerson(names) {}
+function greetPerson(names) {
+  return names.map((name) => "Hello " + name);
+}
 
 //A function that takes an array of names and returns a new array with each name capitalized.
 function capitalizeNames(names) {
   /* This one is a bit trickier.
         utilize slice and toUpperCase string methods.*/
+
+  return names.map((name) => name.charAt(0).toUpperCase() + name.slice(1));
 }
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!This one is a bit bigger and incorporates HTML!!!!!!!!!!!!!!!
@@ -84,6 +92,10 @@ function renderUserCards(users) {
   const USER_CONTAINER = document.getElementById("user-container");
   // utilize the map method and createUserCard function to generate an array of html views
   //iterate over the html views and append them to the USER_CONTAINER.
+
+  const userList = users.map((user) => {
+    USER_CONTAINER.innerHTML += createUserCard(user);
+  });
 }
 
 const doubledArray = doubleNumbers(numbers);
