@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: rgb(36, 34, 38);
+  font-size: 1.2rem;
+  font-family: "Merriweather Sans", sans-serif;
+  height: 70px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.navbar ul {
+  display: flex;
+}
+.header-container .navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  list-style-type: none;
+  align-items: center;
+}
+
+.container .navbar ul li {
+  padding: 10px;
+  margin: 0 100px;
+}
+
+.navbar a,
+h1 {
+  color: rgb(237, 237, 237);
+
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: rgb(193, 193, 193);
+}
+
+.navbar .menu {
+  margin-left: 25px;
+}

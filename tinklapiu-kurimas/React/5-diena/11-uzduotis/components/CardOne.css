@@ -1,0 +1,27 @@
+.card-container {
+  border: 1px, solid, red;
+  padding: 20px;
+}
+.card-title,
+.card-date,
+.card-content,
+.card-button a {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.card-title {
+  color: rgb(51, 67, 103);
+  font-size: 40px;
+}
+.card-date {
+  color: rgb(113, 113, 113);
+  padding-top: 10px;
+}
+.card-content {
+  line-height: 25px;
+}
+
+.card-photo {
+  background-color: rgb(94, 163, 61);
+  width: 100%;
+  height: 250px;
+}
