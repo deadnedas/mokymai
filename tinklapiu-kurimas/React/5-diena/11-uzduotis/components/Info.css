@@ -1,0 +1,15 @@
+.info-container {
+  background-color: rgb(138, 175, 220);
+  padding: 20px;
+  color: white;
+}
+.info-title {
+  padding-bottom: 10px;
+}
+.info-container a {
+  color: white;
+  text-decoration: none;
+}
+.info-container a:hover {
+  text-decoration: underline;
+}

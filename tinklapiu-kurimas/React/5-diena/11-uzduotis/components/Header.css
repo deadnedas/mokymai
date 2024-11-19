@@ -9,6 +9,9 @@
   font-family: "Merriweather Sans", sans-serif;
   height: 70px;
 }
+.header-title {
+  color: rgb(237, 237, 237);
+}
 .navbar {
   display: flex;
   align-items: center;

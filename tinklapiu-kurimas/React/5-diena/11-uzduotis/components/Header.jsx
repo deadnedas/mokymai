@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div className="header-container">
         <div className="navbar">
-          <h1>Marketer</h1>
+          <h1 className="header-title">Marketer</h1>
 
           <ul>
             <li>
