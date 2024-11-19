@@ -41,16 +41,16 @@ export default function App() {
 
       <div className="row">
         <div className="col-6 mb-2 col-sm-3">
-          <Box color="green" />
+          <Box color="bg-primary" />
         </div>
         <div className="col-6 mb-2 col-sm-3">
-          <Box color="green" />
+          <Box color="bg-secondary" />
         </div>
         <div className="col-6 mb-2 col-sm-3">
-          <Box color="green" />
+          <Box color="bg-success" />
         </div>
         <div className="col-6 mb-2 col-sm-3">
-          <Box color="green" />
+          <Box color="bg-warning" />
         </div>
       </div>
     </div>
