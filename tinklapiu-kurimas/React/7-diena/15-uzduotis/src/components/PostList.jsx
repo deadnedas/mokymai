@@ -6,17 +6,17 @@ export default function PostList() {
     {
       title: "HTML",
       content: "Lorem ipsum HTML",
-      img: "./htmlImg.jpg",
+      img: "https://picsum.photos/id/122/200/200",
     },
     {
       title: "CSS",
       content: "Lorem ipsum CSS",
-      img: "./cssImg.jpg",
+      img: "https://picsum.photos/id/237/200/200",
     },
     {
       title: "JavaScript",
       content: "Lorem ipsum JavaScript",
-      img: "./jsImg.jpg",
+      img: "https://picsum.photos/id/222/200/200",
     },
   ];
 
