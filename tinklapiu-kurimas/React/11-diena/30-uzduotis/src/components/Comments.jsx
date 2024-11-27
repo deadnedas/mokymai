@@ -1,4 +1,3 @@
-import fetchData from "./FetchData";
 import { useState, useEffect } from "react";
 
 export default function Comments() {
