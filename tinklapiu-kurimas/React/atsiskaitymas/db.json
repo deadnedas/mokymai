@@ -1,0 +1,141 @@
+{
+  "knygos": [
+    {
+      "pavadinimas": "dwadwa",
+      "autorius": "Gianluca Gotto",
+      "kategorija": "History",
+      "kaina": "3232",
+      "img": "https://thumb.knygos-static.lt/qe5d-8JFmJHSP0RX6C7nxbOUY4Y=/fit-in/0x800/images/books/14820779/1726060846_gotto-cover-lith-ed_1724844242.jpg",
+      "id": "1"
+    },
+    {
+      "reserved": false,
+      "id": "2",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "reserved": true,
+      "id": "3",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "reserved": false,
+      "id": "4",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "reserved": true,
+      "id": "5",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "reserved": false,
+      "id": "6",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "reserved": true,
+      "id": "7",
+      "pavadinimas": "Dune",
+      "autorius": "Frank Herbert",
+      "kaina": 13.99,
+      "img": "https://thumb.knygos-static.lt/MzX5y2FJznF6i_MZvpVjBRFKAGo=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/images/books/1164100/9780340960196.jpg"
+    },
+    {
+      "id": "b0f0",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "3",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2",
+      "reserved": true
+    },
+    {
+      "id": "2d46",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "5",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "7ee4",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "5",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "4eac",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "1",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "6ac7",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "1",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "3a0a",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "3",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "ac54",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "3",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "2540",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "2",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "65ce",
+      "pavadinimas": "Why Men Love Bitches",
+      "autorius": "Sherry Argov",
+      "kategorija": "Psychology",
+      "kaina": "4",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    },
+    {
+      "id": "ad9b",
+      "pavadinimas": "Gilus kaip jūra, lengvas kaip dangus. Ramybę teikianti kelionė į save",
+      "autorius": "ffwf",
+      "kategorija": "Psychology",
+      "kaina": "222",
+      "img": "https://thumb.knygos-static.lt/opB7dOfZKGFU7XhP1upB0wib3Hs=/fit-in/0x800/filters:cwatermark(static/wm.png,500,75,30)/https://libri-media.knygos-static.lt/b48a77a3-6490-42bb-b20a-0d1d41f675d9/2"
+    }
+  ]
+}
