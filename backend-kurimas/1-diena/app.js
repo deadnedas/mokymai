@@ -14,7 +14,7 @@ const app = express();
 //converts json data into a js obj and puts it into req.body
 app.use(express.json());
 
-// const tours = JSON.parse(fs.readFileSync(dir));
+const tours = JSON.parse(fs.readFileSync(dir));
 // console.log(tours);
 
 app.get(`/api/v1/tours`, (req, res) => {
