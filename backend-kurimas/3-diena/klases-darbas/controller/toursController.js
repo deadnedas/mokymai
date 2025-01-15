@@ -1,4 +1,4 @@
-const tours=require("../models/tourModels")
+const tours = require("../models/tourModels");
 //controllers ************************************
 exports.getAllTours = (req, res) => {
   res.status(200).json({
@@ -24,6 +24,21 @@ exports.getTour = (req, res) => {
   });
 };
 
+exports.getToursByCategoryId = async (req, res) => {
+  try {
+    const { categoryid } = req.params;
+
+if(!categoryid || isNAN(categoryid)){
+  res.
+}
+
+  } catch (error) {
+    res.status(500).json({
+      status: "fail",
+      message: error.message,
+    });
+  }
+};
 // ROUTER
 
 exports.postTour = (req, res) => {
